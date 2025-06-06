@@ -1,8 +1,10 @@
 # 👩‍💻 Anjali Juyal – Data Analyst | NLP Enthusiast | Dashboard Developer
 
-Hello! I’m Anjali Juyal, a data-driven problem solver with a B.Sc. in Data Science from Mulund College of Commerce (Autonomous), affiliated with the University of Mumbai. I specialize in transforming raw data into meaningful insights using Python, Power BI, SQL, and NLP.
 
-I’m passionate about using technology to improve decision-making and impact society — from automating brand creativity to analyzing the influence of tech on mental health.
+Hello! I’m Anjali Juyal, a dedicated data enthusiast with a B.Sc. in Data Science . I excel at turning complex, unstructured data into clear, actionable insights using Python, Power BI, SQL, and cutting-edge NLP techniques.
+
+Fueled by a passion for technology and its transformative potential, I strive to drive smarter decision-making and generate meaningful societal impact — whether by automating creative brand storytelling or uncovering how technology shapes mental well-being.
+
 
 ---
 
