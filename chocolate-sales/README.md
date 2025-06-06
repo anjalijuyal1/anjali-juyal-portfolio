@@ -40,12 +40,6 @@ The goal of this dashboard is to derive actionable business insights for marketi
 
 ---
 
-## 🖼️ Sample Visuals (Optional)
-
-> 💡 You can drag and drop screenshots into this README using GitHub's UI to make it visual.
-
----
-
 ## 📈 How to View or Use This
 
 1. Download and open `Chocolate Sales Report.pbix` using Power BI Desktop.
