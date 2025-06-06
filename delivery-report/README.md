@@ -46,11 +46,6 @@ It aims to support logistics and operations teams by offering a clear view into 
 
 ---
 
-## 🖼️ Screenshots (Optional)
-
-> 💡 You can add a screenshot here by dragging and dropping the image into this README after editing it on GitHub.
-
----
 
 ## 📬 Contact
 
