@@ -38,7 +38,7 @@ The aim is to derive actionable insights on how modern tech affects well-being�
 
 ---
 
-## 🗂️ Files (Upload Suggestions)
+## 🗂️ Files
 
 - `wellbeing_analysis.py` – Python data analysis script  
 - `survey_data.csv` – Raw dataset  
