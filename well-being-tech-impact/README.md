@@ -47,11 +47,6 @@ The aim is to derive actionable insights on how modern tech affects well-being�
 
 ---
 
-## 📈 Sample Visuals (Optional)
-
-> Add screenshots of dashboard, correlation heatmaps, or boxplots here by dragging them into this README.
-
----
 
 ## 📬 Contact
 
