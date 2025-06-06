@@ -36,8 +36,7 @@ The project includes a research report, a web interface, Power BI visualizations
 
 ---
 
-## 🗂️ Files (Upload Suggestions)
-
+## 🗂️ Files 
 - `app.py` – Python Flask backend
 - `templates/` – HTML frontend
 - `static/` – CSS styling
@@ -47,7 +46,7 @@ The project includes a research report, a web interface, Power BI visualizations
 
 ---
 
-## 🚀 How to Run (Optional if uploading code)
+## 🚀 How to Run 
 
 ```bash
 # 1. Install required libraries
