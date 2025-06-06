@@ -62,11 +62,6 @@ Explored correlations between screen time and mental health using statistical te
 - Created heatmaps and segmented dashboards by age group
 - Suggested digital detox plans and wellness recommendations
 
----
-
-## 📈 Stats
-
-![Anjali's GitHub Stats](https://github-readme-stats.vercel.app/api?username=anjalijuyal&show_icons=true&theme=calm)
 
 ---
 
