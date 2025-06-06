@@ -1,0 +1,101 @@
+/* static/style.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* A clean and readable font */
+    background-color: #f8f9fa; /* Light background for a modern feel */
+    color: #343a40; /* Dark text for good contrast */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header.bg-light {
+    background-color: #e9ecef !important; /* Light gray background for the header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff; /* Blue for the title to draw attention */
+}
+
+/* Main Content Styles */
+main.container {
+    padding: 2rem 0; /* Add padding to the top and bottom */
+}
+
+#input-area {
+    background-color: #fff; /* White background for the input area */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 2rem;
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: bold;
+    color: #495057; /* Slightly darker label text */
+}
+
+.form-control,
+.form-select {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Blue outline on focus */
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Tagline Area Styles */
+#tagline-area h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.list-group-item {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0.5rem;
+    background-color: #fff; /* Ensure white background */
+}
+
+/* Footer Styles */
+footer.bg-light {
+    background-color: #e9ecef !important;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #ced4da; /* Add a border to the top of the footer */
+}
+
+/* Responsive Design (adjust as needed) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.75rem;
+    }
+
+    .form-label {
+        text-align: left; /* Labels align left on smaller screens */
+    }
+}

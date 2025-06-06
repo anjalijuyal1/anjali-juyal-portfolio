@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slogan Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-light py-3">
+        <div class="container">
+            <h1> The Tagline Factory</h1>
+        </div>
+    </header>
+
+    <main class="container mt-4">
+        <section id="input-area">
+            <form method="POST">
+                <div class="mb-3">
+                    <label for="keywords" class="form-label">Keywords:</label>
+                    <input type="text" class="form-control" id="keywords" name="keywords">
+                </div>
+                <div class="mb-3">
+                    <label for="industry" class="form-label">Industry:</label>
+                    <select class="form-select" id="industry" name="industry">
+                        <option value="">Any</option>
+                        {% for industry in industries %}
+                            <option value="{{ industry }}">{{ industry }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="tone" class="form-label">Tone:</label>
+                    <select class="form-select" id="tone" name="tone">
+                        <option value="">Any</option>
+                        {% for tone in tones %}
+                            <option value="{{ tone }}">{{ tone }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="mb-3">
+     <label for="style" class="form-label">Style:</label>
+     <select class="form-select" id="style" name="style">
+         <option value="">Any</option>
+            {% for style in styles %}
+                 <option value="{{ style }}">{{ style }}</option>
+            {% endfor %}
+     </select>
+</div>
+
+<div class="mb-3">
+     <label for="use_model" class="form-label">Generate with Model?</label>
+     <input class="form-check-input" type="checkbox" id="use_model" name="use_model" value = "true">
+     <label class="form-check-label" for="use_model">
+         Use Model (Requires Training)
+      </label>
+</div>
+
+    <div class="mb-3">
+        <label for="num_taglines" class="form-label">Number of Taglines:</label>
+        <input type="number" class="form-control" id="num_taglines" name="num_taglines" value="5">
+    </div>
+    <button type="submit" class="btn btn-primary">Create Tagline</button>
+</form>
+
+        <section id="tagline-area" class="mt-4">
+            <h2>Here's Your Catchy Tagline:</h2>
+            <ul class="list-group">
+                {% for tagline in taglines %}
+                    <li class="list-group-item">{{ tagline }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-light py-3 mt-4">
+        <div class="container text-center">
+            <p>© 2023 The Tagline Factory</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
